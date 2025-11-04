@@ -1,0 +1,96 @@
+
+.heading {
+  background-color: black;
+  color: orange;
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 15px;
+  width: 80%;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.8em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+  background-color: rgb(116, 13, 13);
+  border-radius: 20px;
+  padding: 25px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.textinput {
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  outline: none;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+
+
+.textinput:focus {
+  border-color: orange;
+  box-shadow: 0 0 8px orange;
+}
+
+button {
+  background-color: orange;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: black;
+  color: orange;
+  transform: scale(1.05);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  background: #f1f2f6;
+  padding: 10px;
+  margin: 8px auto;
+  width: 80%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+li.completed {
+  text-decoration: line-through;
+  background: #b2bec3;
+  color: #636e72;
+}
+
+.delete-btn {
+  background-color: #d63031;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.delete-btn:hover {
+  background-color: #ff7675;
+}
